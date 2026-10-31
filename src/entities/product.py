@@ -2,7 +2,7 @@ from sqlalchemy.orm import Mapped, mapped_column
 from sqlalchemy import String, Numeric, CheckConstraint
 from decimal import Decimal
 
-from database import Base
+from src.database.base import Base
 
 class ProductEntity(Base):
     __tablename__ = "product"
